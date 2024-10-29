@@ -1,6 +1,7 @@
 import React from "react";
 import hamburgerIcon from "../Images/hamburger-icon.jpg";
 import youtubeIcon from "../Images/youtube-logo.jpg";
+import { FaSearch } from "react-icons/fa";
 
 const Head = () => {
   return (
@@ -13,13 +14,19 @@ const Head = () => {
 
       {/* SearchBar section */}
       <div className="col-span-10 pl-64">
-        <input
-          className="w-1/2 focus:outline-none border border-gray-500 p-2 rounded-tl-full rounded-bl-full"
-          type="text"
-        />
-        <button className="border border-gray-500 p-2 rounded-tr-full rounded-br-full bg-gray-100">
-          Search
-        </button>
+        <div className="flex w-1/2 border border-gray-500 rounded-full overflow-hidden">
+          {/* Input box */}
+          <input
+            className="flex-1 p-2 focus:outline-none rounded-tl-full rounded-bl-full"
+            type="text"
+            placeholder="Search"
+          />
+
+          {/* Search button with icon */}
+          <button className="p-2 bg-gray-100 flex items-center justify-center pl-4 pr-4 border-l border-gray-500">
+            <FaSearch className="text-gray-600" />
+          </button>
+        </div>
       </div>
 
       {/* user account */}

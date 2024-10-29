@@ -13,3 +13,6 @@
 - items-center tailwind class on the main div ⭐
 
 ## 2. Sidebar.js file
+
+- Contains the sidebar menu list of the youtube page.
+- Icons attached using "npm install react-icons".
