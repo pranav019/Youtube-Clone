@@ -17,7 +17,7 @@
 - Contains the sidebar menu list of the youtube page.
 - Icons attached using "npm install react-icons".
 
-## Redux Store :-
+### Redux Store :-
 
 - install redux toolkit using "npm i install reduxjs/toolkit.
 - Slice and Store are made using Toolkit.
@@ -26,7 +26,7 @@
 - Create store in utils folder.
 - Create slice.
 
-# Steps for Redux store :-
+### Steps for Redux store :-
 
 - Create a store using configureStore.
 - Create a slice using createSlice.
