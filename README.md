@@ -1,6 +1,6 @@
 ## 1 Project Initialization
 
-- Created the react app using "npx create-react-app youtube-clone".
+- Created the react app using **_npx create-react-app youtube-clone_**.
 - Configured Tailwind CSS to the application.
 
 ## Files work sequence below :-
@@ -15,11 +15,11 @@
 ## 2. Sidebar.js file
 
 - Contains the sidebar menu list of the youtube page.
-- Icons attached using "npm install react-icons".
+- Icons attached using **_npm install react-icons_**.
 
 ### Redux Store :-
 
-- install redux toolkit using "npm i install reduxjs/toolkit.
+- install redux toolkit using **_npm i install reduxjs/toolkit_**.
 - Slice and Store are made using Toolkit.
 
 - install redux using npm i react-redux.
@@ -28,15 +28,15 @@
 
 ### Steps for Redux store :-
 
-- Create a store using configureStore.
-- Create a slice using createSlice.
+- Create a store using **_configureStore_**.
+- Create a slice using **_createSlice_**.
 - Export actions from the slice.
 - Enlist the slice to the store.
 - Attach the store to the App.js file.
 
 ## 3. store.js :-
 
-- Created the store using configure store from reduxjs-toolkit.
+- Created the store using **_configureStore_** from reduxjs-toolkit.
 
 ## 4. appSlice.js :-
 
