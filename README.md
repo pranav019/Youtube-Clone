@@ -3,6 +3,11 @@
 - Created the react app using **_npx create-react-app youtube-clone_**.
 - Configured Tailwind CSS to the application.
 
+### Important Points
+
+- JSX doesn't allow us to use for loop, instead we need to use the map function.
+- Map function example : in Map.js file.
+
 ## Files work sequence below :-
 
 ## 1. Head.js file
@@ -45,3 +50,11 @@
 - Created the slice using createSlice
 - Slice is model that contains the actions and functions, these functions are listed on the app store and used accordingly.
 - toggleSlice : Function for the menu-icon toglling.
+
+## 5. Button.js :-
+
+- Contains the suggestion buttons.
+
+## 6. ButtonList.js :-
+
+- Rendering the suggested button list.
