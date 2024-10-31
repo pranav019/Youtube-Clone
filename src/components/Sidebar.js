@@ -16,8 +16,15 @@ import {
 } from "react-icons/fa";
 import { MdVideoLibrary, MdOutlineLiveTv, MdTrendingUp } from "react-icons/md";
 import React from "react";
+import { useSelector } from "react-redux";
 
 const Sidebar = () => {
+  // subscribed to the specific state of the slice (part of the store)
+  
+  const isMenuOpen = useSelector((store) => store.app.isMenuOpen);
+
+  if (!isMenuOpen) return null;
+
   return (
     <div className="p-5 w-48 shadow-lg">
       <ul className="space-y-4">

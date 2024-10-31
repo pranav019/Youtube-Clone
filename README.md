@@ -11,13 +11,15 @@
 - Contains the searchBar section.
 - Contains the user account section.
 - items-center tailwind class on the main div ⭐
+- Called the toggleMenu function of appSlice.js on menu icon.
 
 ## 2. Sidebar.js file
 
 - Contains the sidebar menu list of the youtube page.
 - Icons attached using **_npm install react-icons_**.
+- subscribed to the specific state of the slice to get the state of the toggleMenu functionality. (useSelector)
 
-### Redux Store :-
+## Redux Store :-
 
 - install redux toolkit using **_npm i install reduxjs/toolkit_**.
 - Slice and Store are made using Toolkit.
@@ -42,3 +44,4 @@
 
 - Created the slice using createSlice
 - Slice is model that contains the actions and functions, these functions are listed on the app store and used accordingly.
+- toggleSlice : Function for the menu-icon toglling.

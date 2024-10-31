@@ -2,13 +2,26 @@ import React from "react";
 import hamburgerIcon from "../Images/hamburger-icon.jpg";
 import youtubeIcon from "../Images/youtube-logo.jpg";
 import { FaSearch } from "react-icons/fa";
+import { useDispatch } from "react-redux";
+import { toggleMenu } from "../utils/appSlice";
 
 const Head = () => {
+  const dispatch = useDispatch();
+
+  const toggleMenuHandler = () => {
+    dispatch(toggleMenu());
+  };
+
   return (
     <div className="grid items-center grid-flow-col p-5 m-2 pt-1 shadow-lg">
       {/* logo and Icon section */}
       <div className="flex  items-center col-span-1 ">
-        <img className="h-12" src={hamburgerIcon} alt="menu-icon" />
+        <img
+          className="h-12 cursor-pointer"
+          src={hamburgerIcon}
+          alt="menu-icon"
+          onClick={() => toggleMenuHandler()}
+        />
         <img className="h-16  mx-2" src={youtubeIcon} alt="youtube-logo" />
       </div>
 
