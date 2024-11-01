@@ -15,7 +15,6 @@ const ButtonList = () => {
       <Button name="Politics" />
       <Button name="Samay Raina" />
       <Button name="Devotional" />
-
     </div>
   );
 };
