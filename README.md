@@ -58,3 +58,21 @@
 ## 6. ButtonList.js :-
 
 - Rendering the suggested button list.
+
+## 7. VideoContainer.js :-
+
+- Contains the videos, api call of the videos (youtube-api) is done using useEffect hook of react.
+
+- Enable the API:
+
+_Go to the YouTube Data API v3 page in your Google Cloud Console._
+_Make sure you're logged in with the correct Google account._
+_Select the project (or the relevant project you’re working on)._
+_Click Enable if the API is not enabled already._
+
+## 8. VideoCard.js :-
+
+- For the video container section.
+- Extracted out snippets and statistics.
+
+## 9. WatchPage.js :-
