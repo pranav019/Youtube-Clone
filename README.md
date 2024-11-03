@@ -79,13 +79,13 @@ _Click Enable if the API is not enabled already._
 
 - ### Routing Setup :-
 
-- install routing toolkit using **_npm i react-router-dom_**.
+- - install routing toolkit using **_npm i react-router-dom_**.
 
 - ### Steps for Routing use :-
 
-- Create appRouter using _createBrowserRouter_.
-- _createBrowserRouter_ takes array of paths.
-- Provide **_RouterProvider_** to the element in the app.js file.
+- - Create appRouter using _createBrowserRouter_.
+- - _createBrowserRouter_ takes array of paths.
+- - Provide **_RouterProvider_** to the element in the app.js file.
 
 ## 10. Body.js :-
 
