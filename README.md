@@ -76,3 +76,23 @@ _Click Enable if the API is not enabled already._
 - Extracted out snippets and statistics.
 
 ## 9. WatchPage.js :-
+
+- ### Routing Setup :-
+
+- install routing toolkit using **_npm i react-router-dom_**.
+
+- ### Steps for Routing use :-
+
+- Create appRouter using _createBrowserRouter_.
+- _createBrowserRouter_ takes array of paths.
+- Provide **_RouterProvider_** to the element in the app.js file.
+
+## 10. Body.js :-
+
+- Either be my body will render or the watch video section will render.
+- Contains the Routing, Redux store setup.
+- Children array for the conditional rendering of teh page by using outlet where teh conditions meant to be met.
+
+### Configuring the Outlet :-
+
+- create children array : an array that contains the element that renders according to the path.
